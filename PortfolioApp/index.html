@@ -6,15 +6,16 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Portfolio</title>
 
-    <!-- Tailwind CSS CDN -->
-    <script src="https://cdn.tailwindcss.com"></script>
-    <script>
-      tailwind.config = {
-        theme: {
-          extend: {},
-        },
-      }
-    </script>
+<!-- Tailwind CSS CDN with dark mode -->
+<script src="https://cdn.tailwindcss.com"></script>
+<script>
+  tailwind.config = {
+    darkMode: 'class', // Enables class-based dark mode
+    theme: {
+      extend: {},
+    },
+  }
+</script>
 
     <!-- Optional fallback CSS -->
     <style>
@@ -27,9 +28,7 @@
   html {
     scroll-behavior: smooth;
   }
-
-
-    </style>
+   </style>
   </head>
   <body>
     <div id="root"></div>
